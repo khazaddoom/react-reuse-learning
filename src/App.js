@@ -1,6 +1,11 @@
 import React from 'react';
 import './style.css';
+import Checkbox from './Checkbox';
 
 export default function App() {
-  return <h1>Hello asdasd</h1>;
+  return (
+    <>
+      <Checkbox defaultProp={true} />
+    </>
+  );
 }
